@@ -1,7 +1,7 @@
 """SocksiPy - Python SOCKS module.
-Version 1.00
+Version 1.1
 
-Copyright 2006 Dan-Haim. All rights reserved.
+Copyright 2019 Dan-Haim. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -31,7 +31,7 @@ for tunneling connections through SOCKS proxies.
 """
 
 import socket
-import struct
+from struct import *
 
 PROXY_TYPE_SOCKS4 = 1
 PROXY_TYPE_SOCKS5 = 2
