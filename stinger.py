@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #Stinger-Tor
-#Coded by @WhitePacket ~ whitepacket.org
+#Coded by @WhitePacket ~ whitepacket.org & /u/whaliam
 #Function names are written in the order metasploit launches attacks: RECON - EXPLOIT - PAYLOAD - LOOT for entertainment purposes.
 #Requires Socksipy (socks.py) in the current directory. Download it from here: https://raw.githubusercontent.com/mikedougherty/SocksiPy/master/socks.py
 #Donate BTC (nobody ever does): 1MfxuyEFY6StHo3gBPdNyRWGFDMxRutEXp
@@ -87,7 +87,7 @@ if not args.m.lower().startswith('slow') and not args.m == "1":
 print '*********************************'
 print '*           [stinger]           *'
 print '*      initiating attack..      *'
-print '*       -attack details-        *'
+print '*       -attack details loris-        *'
 print '*  host: '+args.s+' *'
 nex = '*  server port: '+str(args.p)
 for x in range(0,15 - len(list(str(args.p))) + 1):
